@@ -1,0 +1,27 @@
+
+spring:
+  redis:
+    database: 2
+    host: 10.16.6.90
+    port: 6379
+    pool:
+      max-idle: 8 #最小空闲链接
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: nxy
+    driver-class-name: com.mysql.jdbc.Driver
+  aop:
+    auto: true
+hello:  good
+nxy:
+  age: 17
+  name: ${random.value()}
+  condition: true
+logging:
+  file: /var/log/app.log
+  level: debug
+app:
+  version: 1.0
