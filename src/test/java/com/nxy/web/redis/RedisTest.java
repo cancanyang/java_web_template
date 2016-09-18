@@ -1,4 +1,4 @@
-package com.nxt.tets.redis;
+package com.nxy.web.redis;
 
 import org.junit.Assert;
 import org.junit.Before;

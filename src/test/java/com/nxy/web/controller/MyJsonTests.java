@@ -1,4 +1,4 @@
-package com.nxy.test.controller;
+package com.nxy.web.controller;
 import org.junit.*;
 import org.junit.runner.*;
 import org.springframework.beans.factory.annotation.*;

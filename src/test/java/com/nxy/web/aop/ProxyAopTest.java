@@ -1,4 +1,4 @@
-package com.nxy.test.aop;
+package com.nxy.web.aop;
 
 import com.nxy.web.aop.BeforeAdvice;
 import com.nxy.web.vo.Nxy;

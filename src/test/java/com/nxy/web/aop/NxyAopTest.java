@@ -1,4 +1,4 @@
-package com.nxy.test.aop;
+package com.nxy.web.aop;
 
 import com.nxy.web.App;
 import com.nxy.web.vo.Nxy;

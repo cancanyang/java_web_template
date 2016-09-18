@@ -1,4 +1,4 @@
-package com.nxy.test.controller;
+package com.nxy.web.controller;
 
 import com.nxy.web.App;
 import com.nxy.web.vo.Nxy;

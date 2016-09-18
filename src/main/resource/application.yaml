@@ -15,11 +15,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   aop:
     auto: true
+  condition:
+    sechedule: false
 hello:  good
 nxy:
   age: 17
   name: ${random.value()}
-  condition: true
 logging:
   file: /var/log/app.log
   level: debug

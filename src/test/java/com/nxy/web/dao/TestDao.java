@@ -1,4 +1,4 @@
-package com.nxy.test.dao;
+package com.nxy.web.dao;
 
 import com.nxy.web.App;
 import com.nxy.web.dao.StudentDao;

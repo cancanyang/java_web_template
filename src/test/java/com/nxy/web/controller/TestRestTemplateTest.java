@@ -1,4 +1,4 @@
-package com.nxy.test.controller;
+package com.nxy.web.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
