@@ -1,4 +1,4 @@
-package com.future;
+package com.nxy.test;
 
 import org.junit.Test;
 
