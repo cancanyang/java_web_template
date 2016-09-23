@@ -13,7 +13,7 @@ public class CallableAndFutureTest {
 
 		@Override
 		public Boolean call() throws Exception {
-			Thread.sleep(3000);
+			Thread.sleep(1);
 			System.out.println(System.currentTimeMillis());
 			return false;
 		}
@@ -24,6 +24,10 @@ public class CallableAndFutureTest {
 		ExecutorService threadpool = Executors.newWorkStealingPool(3);
 		MyCabble c1 = new MyCabble();
 		Future<Boolean> r = threadpool.submit(new MyCabble());
-        System.out.println(r.get());
+		int i=0;
+		while (!r.isDone()){
+			System.out.println(i++);
+		}
+		System.out.println(r.get());
     }
 }

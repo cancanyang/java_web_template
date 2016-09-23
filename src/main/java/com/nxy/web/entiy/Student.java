@@ -7,7 +7,11 @@ public class Student {
     private Long id;
     private String name;
     private Integer age;
-
+    public Student(){};
+    public Student(Integer age,String name){
+        this.age  = age;
+        this.name = name;
+    }
     public Long getId() {
         return id;
     }
