@@ -74,4 +74,11 @@ public class SampleTest {
         System.out.println(Math.floor(5110/1000));
         System.out.println(Math.floor(5610/1000));
     }
+    @Test
+    public void test6(){
+        System.out.println("周杰伦".hashCode());
+        System.out.println("刘德华".hashCode());
+        System.out.println("1".hashCode());
+        System.out.println("2".hashCode());
+    }
 }

@@ -16,7 +16,7 @@ spring:
   aop:
     auto: true
   condition:
-    sechedule: false
+    sechedule: true
 hello:  good
 nxy:
   age: 17

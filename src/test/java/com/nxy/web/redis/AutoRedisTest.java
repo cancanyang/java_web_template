@@ -29,6 +29,7 @@ public class AutoRedisTest {
 		list.stream().forEach(i -> System.out.println(i));
 		// redisTemplate.opsForZSet().add("test_zset",1,11);
 		// redisTemplate.opsForZSet().add("test_zset",3,9);
+
 	}
 
 	@Test
